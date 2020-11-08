@@ -1337,7 +1337,7 @@
                                 </div>
                                 <div class="how-it-work-inner">
                                     <p class="parrafo">
-                                        Hemos preparado deliciosas y sabrosas comidas con ingredientes de alta calidad, conservando todos los sabores y nutrientes. Puede disfrutarlo en cualquier lugar: en el camino, en su escritorio o antes de una prueba. Simplemente agregue agua y disfrute.
+                                        Hemos preparado deliciosas y sabrosas comidas con ingredientes de alta calidad, conservando todos los sabores y nutrientes. Puede disfrutarlo en cualquier lugar: en el camino, en su escritorio o antes de una prueba. Simplemente calientelo y disfrute.
                                     </p>
                                     <link rel="stylesheet" href="./Factor_%20_%20Comidas%20saludables%20y%20completamente%20preparadas%20entregadas%20en%20su%20puerta_files/custom/customStyles.css">
                                     <link rel="stylesheet" href="./Factor_%20_%20Comidas%20saludables%20y%20completamente%20preparadas%20entregadas%20en%20su%20puerta_files/custom/animations.css">
@@ -2036,7 +2036,8 @@
     form.addEventListener("submit",function(e){
         let nombre=form.nombre.value;
         let email=form.email.value;
-        db.collection("suscripciones").add({email:email,nombre:nombre});
+        db.collection("suscripciones").add({email:email,nombre:nombre}).then(()=>{location.reload();});
+        e.preventDefault();
     })
 
 </script>
