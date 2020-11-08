@@ -1,0 +1,230 @@
+.fav-meal-outer h2,h4{
+    letter-spacing:0 !important;
+}.how-it-work-inner{
+    display: block;
+    font-size: 20px;
+}
+.how-it-work-inner p.parrafo{
+    margin:30px;
+
+}
+.how-it-work-title h2{
+    margin:0 !important;
+}
+.how-it-work-inner .container{
+
+    margin:10px 0;
+    display:flex;
+    justify-content: space-between;
+}
+.how-it-work-inner [class*="step"]{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .fav-meal-outer h2,h4{
+        max-width:400px !important;
+    }
+    .how-it-work-inner .container{
+        display:block;
+        margin-bottom:80px;
+    }
+    ul.category-rep-outer.resp-tabs-list{
+        display:block;
+    }
+    li.resp-tab-item{
+        display:block !important;
+        margin:0 auto 10px auto !important;
+
+    }
+    div.accordion-title h2{
+        text-align: center;
+    }
+    .how-it-work-inner [class*="step"]{
+        margin-bottom:20px !important;
+    }
+    .how-it-work-inner [class*="step"] .image{
+        width:50% !important;
+    }
+    .how-it-work-inner [class*="step"] .big{
+        font-size: .8em;
+    }
+    .how-it-work-inner [class*="step"] .small{
+        font-size: .6em;
+    }
+    .page-center{
+        width:100% !important;
+    }
+
+}
+
+.how-it-work-inner [class*="step"] .image{
+    width:70%;
+}
+.how-it-work-inner [class*="step"] .big{
+    font-size: 1.2em;
+    font-family: RationalText-SemiBold;
+}
+.how-it-work-inner [class*="step"] .small{
+    font-size: 1em;
+}
+
+#hs_cos_wrapper_module_1598437098774220{
+    position:relative;
+
+}
+#form1-spz{
+    align-items: center;
+    display: flex !important;
+    padding: 0;
+}
+.filter{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+}
+
+
+.hero-content{
+    margin:150px auto;
+    position: relative;
+    width:1080px;
+    color:white;
+    display:flex;
+    text-align: left;
+}
+.hero-content__info{
+    width:65%;
+    padding-right: 40px !important;
+}
+.hero-content__subscription{
+    width:35%;
+}
+@media screen and (max-width: 700px) {
+    .hero-content{
+        margin:100px auto 100px auto !important;
+        width:90% !important;
+    }
+    .hero-content{
+        text-align: center;
+        display:block;
+    }
+    .hero-content__info{
+        padding-right:0 !important;
+        width:100%;
+    }
+    .hero-content__subscription{
+        width:80%;
+        margin:auto;
+    }
+    .hero-content__info .slogan{
+        font-size: 2.5em !important;
+        margin:20px auto;
+    }
+}
+
+.hero-content__info .slogan{
+    font-family:'RationalText-Medium', sans-serif;
+    font-size: 3.5em;
+    color:rgba(255,255,255,0.8);
+}
+.hero-content__info .info{
+    color:rgba(255,255,255,0.8);
+    font-size: 1.2em;
+}
+
+.hero-content__subscription{
+    align-self: center;
+    background: rgba(255,255,255,0.7);
+    margin-top:40px;
+    color:rgba(255,255,255,0.8);
+    font-size: 1.5em;
+    padding:20px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,.5);
+}
+.hero-content__subscription .subscription-label{
+    color:black;
+    font-weight: bold;
+}
+.hero-content__subscription .subscription-form{
+    margin:20px auto 0 auto;
+}
+.hero-content__subscription .subscription-form input{
+    width:100%;
+    height: 48px;
+    display:block !important;
+    margin-bottom:10px;
+}
+.hero-content__subscription .subscription-form input.btn-submit{
+    width:100%;
+    background: #ffb213;
+    color: #151414;
+    border:none;
+    font-size:20px;
+    padding:10px;
+    font-weight: bold;
+}
+
+
+
+
+.accordion-panel-left-right{
+    justify-content: center;
+}
+.pricing-three-col{
+    justify-content: center;
+}
+.pricing-three-col .pricing-col-rep{
+    margin:20px;
+}
+
+
+/*preios background*/
+.outter-container{
+    background-image:url("image-background.jpg");
+    background-attachment: fixed;
+}
+.outter-container .pricing-sec-main{
+    background:rgba(0,0,0,.7);
+}
+.outter-container .pricing-sec-main{
+    padding:20px !important;
+}
+.outter-container .pricing-sec-main .pricing-sec-title h4{
+    padding-bottom:0 !important;
+    margin-bottom:0 !important;
+    color:white !important;
+}
+.outter-container .pricing-sec-main .pricing-sec-title h2{
+    margin-top:0px !important;
+    color:white !important;
+}
+.outter-container .pricing-sec-main .pricing-sec-title h2:before{
+    background: transparent;
+
+}
+.outter-container .pricing-sec-main .pricing-three-col{
+    padding-bottom:0 !important;
+    margin-bottom:0 !important;
+}
+
+@media screen and (max-width: 450px) {
+    .fav-meal-outer h2,h4{
+        max-width:400px !important;
+    }
+    .fav-meal-main{
+        padding-left:20px !important;
+        padding-right:20px !important;
+    }
+    .hero-content__subscription{
+        width:90%;
+        margin:20px auto 0 auto;
+    }
+
+}
